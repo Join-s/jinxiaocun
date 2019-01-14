@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>webJinXiaoCunSystem</display-name>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <url-pattern>/jaxrs/*</url-pattern>
+  </servlet-mapping>
+  <!-- 进货 -->
+  <servlet>
+  <servlet-name>EnterStockServlet</servlet-name>
+  <servlet-class>club.hellc.severlet.EnterStockServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>EnterStockServlet</servlet-name>
+    <url-pattern>/EnterStockServlet</url-pattern>
+  </servlet-mapping>
+   <!-- 进货修改 -->
+  <servlet>
+  <servlet-name>EnterStockUpdateServlet</servlet-name>
+  <servlet-class>club.hellc.severlet.EnterStockUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>EnterStockUpdateServlet</servlet-name>
+  <url-pattern>/EnterStockUpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+   <!-- 进货删除 -->
+   <servlet>
+  <servlet-name>EnterStockDeleteServlet</servlet-name>
+  <servlet-class>club.hellc.severlet.EnterStockDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>EnterStockDeleteServlet</servlet-name>
+  <url-pattern>/EnterStockDeleteServlet</url-pattern>
+  </servlet-mapping>
+   <!-- 进货添加商品种类 -->
+  <servlet>
+  <servlet-name>EsAddProductServlet</servlet-name>
+  <servlet-class>club.hellc.severlet.EsAddProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>EsAddProductServlet</servlet-name>
+  <url-pattern>/EsAddProductServlet</url-pattern>
+  </servlet-mapping>
+  
+   <!-- 添加商品大类-->
+  <servlet>
+  <servlet-name>AddProductTypeServlet</servlet-name>
+   <servlet-class>club.hellc.severlet.AddProductTypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddProductTypeServlet</servlet-name>
+  <url-pattern>/addProductType</url-pattern>
+  </servlet-mapping>
+   <!-- 添加登陆人员 -->
+   <servlet>
+  <servlet-name>AddUsersServlet</servlet-name>
+   <servlet-class>club.hellc.severlet.AddUsersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddUsersServlet</servlet-name>
+  <url-pattern>/addUsers</url-pattern>
+  </servlet-mapping>
+  <!-- 添加用户 -->
+   <servlet>
+  <servlet-name>UpdateUsersServlet</servlet-name>
+   <servlet-class>club.hellc.severlet.UpdateUsersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UpdateUsersServlet</servlet-name>
+  <url-pattern>/updateUsersServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 删除用户 -->
+  <servlet>
+  <servlet-name>DeleteUsersServlet</servlet-name>
+   <servlet-class>club.hellc.severlet.DeleteUsersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteUsersServlet</servlet-name>
+  <url-pattern>/deleteUsersServlet</url-pattern>
+  </servlet-mapping>
+  <!--   -->
+  <servlet>
+    <servlet-name>InvInforQueServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.InvInforQueServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InvInforQueServlet</servlet-name>
+    <url-pattern>/invInforQueServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 添加销售表 -->
+  <servlet>
+    <servlet-name>AddOrdersServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.AddOrdersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddOrdersServlet</servlet-name>
+    <url-pattern>/addOrdersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddAcksaleServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.AddAcksaleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddAcksaleServlet</servlet-name>
+    <url-pattern>/addAcksaleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FindOrdersServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.FindOrdersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindOrdersServlet</servlet-name>
+    <url-pattern>/findOrdersServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 出库 -->
+  <servlet>
+    <servlet-name>OutSaleServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.OutSaleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCustomServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.AddCustomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCustomServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.UpdateCustomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCustomServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.DeleteCustomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddEmployee</servlet-name>
+    <servlet-class>club.hellc.severlet.AddEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateEmployee</servlet-name>
+    <servlet-class>club.hellc.severlet.UpdateEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <servlet-class>club.hellc.severlet.DeleteEmployee</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddDeptServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.AddDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteDeptServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.DeleteDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindbytimeServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.FindbytimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindesbytimeServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.FindesbytimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateUpwdServlet</servlet-name>
+    <servlet-class>club.hellc.severlet.UpdateUpwdServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>OutSaleServlet</servlet-name>
+    <url-pattern>/outSaleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustomServlet</servlet-name>
+    <url-pattern>/addCustomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustomServlet</servlet-name>
+    <url-pattern>/updateCustomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCustomServlet</servlet-name>
+    <url-pattern>/deleteCustomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEmployee</servlet-name>
+    <url-pattern>/addEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEmployee</servlet-name>
+    <url-pattern>/updateEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <url-pattern>/deleteEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddDeptServlet</servlet-name>
+    <url-pattern>/addDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteDeptServlet</servlet-name>
+    <url-pattern>/deleteDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindbytimeServlet</servlet-name>
+    <url-pattern>/findbytimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindesbytimeServlet</servlet-name>
+    <url-pattern>/findesbytimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUpwdServlet</servlet-name>
+    <url-pattern>/updateUpwdServlet</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  <filter-name>LoginFilter</filter-name>
+  <filter-class>club.hellc.myMyFilter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  <filter-name>LoginFilter</filter-name>
+  <url-pattern>/updateUpwdServlet</url-pattern>
+   <url-pattern>/findesbytimeServlet</url-pattern>
+   <url-pattern>/findbytimeServlet</url-pattern>
+    <url-pattern>/deleteDeptServlet</url-pattern>
+    <url-pattern>/addDeptServlet</url-pattern>
+    <url-pattern>/updateEmployee</url-pattern>
+    <url-pattern>/updateCustomServlet</url-pattern>
+  </filter-mapping>
+</web-app>

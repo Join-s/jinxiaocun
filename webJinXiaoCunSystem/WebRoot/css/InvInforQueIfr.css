@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*body{
+	/*height: 700px;*/
+}
+
+#table-ifr-div{
+	width: 1500px;
+	height: 680px;
+}
+#tab_form{
+		/*1500*710*/
+}
+#tab_form tr th{
+	
+}
+#tab_form tr td {
+	/*vertical-align: middle;*/
+	text-align: center;
+	height: 30px;
+}
+#tab_form tr td input {
+	/*vertical-align: middle;*/
+	/*width: 100%;*/
+	border: 0px;
+	text-align: center;
+	height: 30px;
+}
+.m-bto{
+		height: 25px;
+		width: 1480px;
+		/*background-color: red;*/
+		/*margin-bottom: 50px;*/
+		position: absolute;
+		bottom: 5px;
+		
+	}
+.m-bto p{
+	text-indent: 4em;
+}
+.m-bto	#next{
+		/*margin-right: 100px;*/
+		position: relative;
+		left: 700px;
+	}
+.m-bto	#next input{
+		width: 55px;
+	}
+#sumnum{
+	color: red;
+}
+#viewnum{
+	color: red;
+}*/

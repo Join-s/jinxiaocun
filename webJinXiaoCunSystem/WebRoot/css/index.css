@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*头部样式表*/
+#top{
+	width: 1920px;
+	height: 152px;
+}
+	/*头部标题*/
+	.top-title{
+		width:100%;
+		height: 100px;
+		border-bottom: 2px solid cornflowerblue;
+	}
+	.top-title h1{
+		font-size: 70px;
+		font-family: "方正舒体";
+	}
+	/*头部导航栏*/
+	.top-nav{
+		background-color:aliceblue;
+		border-bottom: 2px solid cornflowerblue;
+		height: 45px;
+	}
+	.nav{
+		float: left;margin: 0 10px 10px;
+		text-align: center;
+		font-size: 24px;
+	}
+	.nav:nth-child(2){
+		width: 500px;
+	}
+	.nav:nth-child(3){
+		width: 700px;
+	}
+/*主体样式表*/
+#midd{
+	width: 1900px;
+	height: 752px;
+}
+.mid{
+	float: left;
+	height: 750px;
+}
+	/*左侧导航栏*/
+	#left{
+		width: 300px;
+		margin-left: 50px;
+		border-left:1px solid black ;
+		/*border-right:1px solid black ;*/
+	}
+	#left>ul>li:nth-child(2){
+	}
+	
+	
+	.li-mune{
+		border-top: 2px solid black;
+		height: 27px;
+	}
+	.li-mune-div{
+		/*border-bottom: 1px solid #6495ED;*/
+		background-color: rgba(243,214,3,0.5);
+		font-size: 18px;
+	}
+	.li-mune-div:nth-child(5){
+		/*border-bottom: 1px solid black;*/
+	}
+	.xiala-images{
+		margin-left:170px;
+	}
+	#xiala-images-id{
+		
+	}
+	
+	.two-ul{
+		width: 200px;
+		height: 30px;
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+	.two-ul:nth-child(1){
+	}
+	.two-ul li{
+		/*text-align: center;*/
+		line-height: 25px;
+		vertical-align: middle;
+		border-bottom: 1px solid black;
+	}
+	.two-ul li:nth-child(1){
+		/*border-bottom: 1px solid black;*/
+		color: rgba(0,129,272,0.90);
+	}
+	.two-ul-mune {
+		width: 180px;
+		height: 40px;
+		display: none;
+	}
+	/*右侧信息显示栏*/
+	#right{
+		/*background-color: aquamarine;*/
+		width: 1540px;
+		left: 350px;
+	}
+	/*右侧信息显示栏顶部导航*/
+	.m-tab-div{
+		width: 1500px;
+		height: 40px;
+	}
+	.m-tab li{
+		float: left;
+		width: 180px;
+		vertical-align: middle;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	/*右侧信息显示*/
+	.ifram-div{
+		width: 1500px;
+		height: 710px;
+	}
+	#myifram{
+		/*background-color: aliceblue;*/width: 100%;height:100%;
+	}
+
+/*底部样式表*/
+#foot{
+	background-color: burlywood;
+	text-align: center;
+}
+
